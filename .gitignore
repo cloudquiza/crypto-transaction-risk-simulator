@@ -1,0 +1,51 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Dataset outputs (safe to ignore raw data if needed)
+data/*.csv
+
+# But KEEP any example CSVs you want in the repo:
+# !data/example_*.csv
+
+# Streamlit
+.streamlit/
+*/.streamlit/
+
+# Jupyter Notebook metadata
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Playwright / Testing
+ui-tests/test-results/
+ui-tests/playwright-report/
+ui-tests/.cache/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# NetworkX or Plotly temp files
+*.svg
+*.png
+
+# Environment variables
+.env
