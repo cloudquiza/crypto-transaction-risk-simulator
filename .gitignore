@@ -47,9 +47,13 @@ ui-tests/.cache/
 dist/
 build/
 
-# NetworkX or Plotly temp files
+# NetworkX / Plotly generated files
 *.svg
 *.png
+
+# Allow documentation images
+!docs/img/*.png
+
 
 # Environment variables
 .env
