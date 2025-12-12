@@ -34,9 +34,13 @@ data/*.csv
 Thumbs.db
 
 # Playwright / Testing
+test-results/
+playwright-report/
+
 ui-tests/test-results/
 ui-tests/playwright-report/
 ui-tests/.cache/
+
 
 # Python packaging
 *.egg-info/
